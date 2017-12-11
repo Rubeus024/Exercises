@@ -4,7 +4,7 @@ from math import sqrt
 class Wektor:
 
     def __init__(self,x,y):
-        self._xCoord=x
+        self._xCoord=x # prywatna zmienna _ (jest to umoan zasada)
         self._yCoord=y
     @property
     def xCoord(self):
