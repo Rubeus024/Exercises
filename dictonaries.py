@@ -2,6 +2,7 @@ mydict = {'1':4,'b':55,'c':68}
 
 for key, value in mydict.items():
     print("Key: "+str(key)+"Value: "+str(value))
+    print(list(mydict.values()))
 
 
 lista1=[(x,y) for x in range(1,6) for y in range(x,6)]

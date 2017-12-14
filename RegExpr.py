@@ -10,6 +10,7 @@ class QuadraticFunction:
         print(self._list)
         del self._list[1]
         print(self._list)
+        #ważne
         self._list = list(map(int, self._list))
 
     def findsolution(self):
